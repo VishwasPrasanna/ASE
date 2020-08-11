@@ -1,0 +1,1 @@
+If we're judging quality by succinctness, these trees are phenomenal. there's not one of them that has more than a single decision to make. So it seems that making a contrast set really streamlines the decision making process within the decision trees.

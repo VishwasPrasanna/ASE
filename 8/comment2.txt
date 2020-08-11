@@ -1,0 +1,30 @@
+I disagree with many of Suvodeep's reasons for why generality is
+good (in section 2.1). My primary objection is that I would prefer
+very correct knowledge to partially correct but more general knowledge.
+He is correct, however, that spending a lot of time to learn a model
+that is only applicable to a single problem is normally a waste of time,
+and it's probably better for the problem to have been solved by hand.
+
+Despite my disagreements with his background arguments in favor of
+generality, I believe that a more global approach to this form of
+reasoner is better because the construction of the model and the 
+classification of the data in a more global reasoner is more streamlined
+than in this local reasoner. For example, in a global reasoner, we
+iterate through the rows, comparing each row with the others for
+domination. Then we build a two-class model, having separated the data
+between the best and the worst, and then learn a tree. When we go to
+classify, all we have to do is run our new data through the tree. On
+the flipside, with this local learner, we first iterate through the rows
+comparing them for domination, we then cluster the rows into different
+groups and finally, we learn a tree for each cluster compared to its most
+envied cluster. But when it comes time to classify in this local reasoner,
+the steps to classification are not clear. Do we simply run our data through
+each of the trees we've made? If so, the trees will not actually perform
+well, as they won't tell us if our data is good, they'll only tell us
+if a small part of our data is closer to a good cluster. If not this, do
+we first separate our data into the cluster it would most likely belong in
+and then run it through the trees for each cluster? If we do this, we already
+know which cluster we are a member of, and it seems pointless to interact
+with the trees we've built. So because of succinctness of reasoning and
+logical ability to follow what's going on in the learner, I believe a
+global reasoner is better than the local reasoner we just built.

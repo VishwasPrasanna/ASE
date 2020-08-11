@@ -1,0 +1,58 @@
+Python 3.7.4 (default, Jul  9 2019, 00:06:43)
+[GCC 6.3.0 20170516] on linux
+Mean at index 9: 153.2
+Standard Deviation at index 9: 57.52877540848581
+Mean at index 19: 152.65
+Standard Deviation at index 19: 60.03188735996892
+Mean at index 29: 138.2
+Standard Deviation at index 29: 63.401051515990936
+Mean at index 39: 133.50000000000003
+Standard Deviation at index 39: 66.94587365924801
+Mean at index 49: 131.10000000000002
+Standard Deviation at index 49: 66.75185390683916
+Mean at index 59: 128.29999999999998
+Standard Deviation at index 59: 69.08263168119761
+Mean at index 69: 117.44285714285712
+Standard Deviation at index 69: 72.55808229358365
+Mean at index 79: 120.78749999999998
+Standard Deviation at index 79: 74.05465781265896
+Mean at index 89: 124.56666666666665
+Standard Deviation at index 89: 73.77940844918126
+Mean at index 99: 126.45999999999998
+Standard Deviation at index 99: 72.93633113887759
+Got mean: 125.92857142857142 at index: 99
+Expected mean: 126.45999999999998
+Got standard deviation: 73.25399619941342 at index: 99
+Expected standard deviation: 72.93633113887759
+Got mean: 123.5681818181818 at index: 89
+Expected mean: 124.56666666666665
+Got standard deviation: 74.31089413809606 at index: 89
+Expected standard deviation: 73.77940844918126
+Got mean: 119.48717948717946 at index: 79
+Expected mean: 120.78749999999998
+Got standard deviation: 73.66134281546901 at index: 79
+Expected standard deviation: 74.05465781265896
+Got mean: 118.89705882352939 at index: 69
+Expected mean: 117.44285714285712
+Got standard deviation: 72.77405397891448 at index: 69
+Expected standard deviation: 72.55808229358365
+Got mean: 131.44827586206895 at index: 59
+Expected mean: 128.29999999999998
+Got standard deviation: 67.82156416651618 at index: 59
+Expected standard deviation: 69.08263168119761
+Got mean: 133.62499999999997 at index: 49
+Expected mean: 131.10000000000002
+Got standard deviation: 66.63883533646133 at index: 49
+Expected standard deviation: 66.75185390683916
+Got mean: 137.55263157894728 at index: 39
+Expected mean: 133.50000000000003
+Got standard deviation: 66.23391457888647 at index: 39
+Expected standard deviation: 66.94587365924801
+Got mean: 137.85714285714272 at index: 29
+Expected mean: 138.2
+Got standard deviation: 65.32430869226614 at index: 29
+Expected standard deviation: 63.401051515990936
+Got mean: 149.94444444444423 at index: 19
+Expected mean: 152.65
+Got standard deviation: 62.185629120688766 at index: 19
+Expected standard deviation: 60.03188735996892

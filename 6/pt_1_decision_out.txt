@@ -1,0 +1,17 @@
+------------Decision Tree-----------------
+$insu = -inf .. 120.0: tested_negative (0.8703902980303507)
+$insu = 120.0 .. inf
+  $plas = -inf .. 155.0
+    $preg = -inf .. 6.0
+      $mass = -inf .. 42.3: tested_negative (0.7861044688447759)
+      $mass = 42.3 .. inf
+        $age = -inf .. 31.0: tested_negative (0.9182958340544894)
+        $age = 31.0 .. inf: tested_positive (0.0)
+    $preg = 6.0 .. inf
+      $preg = -inf .. 7.0: tested_negative (0.9852281360342514)
+      $preg = 7.0 .. inf: tested_positive (0.6665783579949205)
+  $plas = 155.0 .. inf
+    $preg = -inf .. 1.0
+      $plas = -inf .. 177.0: tested_negative (0.0)
+      $plas = 177.0 .. inf: tested_positive (0.7219280948873623)
+    $preg = 1.0 .. inf: tested_positive (0.4959690720618337)

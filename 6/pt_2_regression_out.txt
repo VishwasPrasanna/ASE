@@ -1,0 +1,23 @@
+------------Regression Tree-----------------
+cylinders = -inf .. 8
+  origin = -inf .. 3
+    $weight = -inf .. 3664.0
+      origin = -inf .. 3: 25.137450199203187 (6.065439132701766)
+      origin = 3 .. inf: 32.994117647058815 (0.7411735527486963)
+    $weight = 3664.0 .. inf
+      cylinders = -inf .. 8: 13.287037037037036 (1.6241161655981056)
+      cylinders = 8 .. inf: 15.0 (0.0)
+  origin = 3 .. inf
+    cylinders = -inf .. 4: 37.1 (1.0969655114602885)
+    cylinders = 4 .. inf: 44.0 (2.9461839725312475)
+cylinders = 8 .. inf
+  $horsepower = -inf .. 170.0
+    $horsepower = -inf .. 140.0
+      cylinders = -inf .. 8: 18.33636363636364 (1.307878226191357)
+      cylinders = 8 .. inf: 25.25 (1.9091883092036803)
+    $horsepower = 140.0 .. inf
+      cylinders = -inf .. 8: 16.53333333333333 (0.7773303186177828)
+      cylinders = 8 .. inf: 19.033333333333335 (0.47258156262525847)
+  $horsepower = 170.0 .. inf
+    cylinders = -inf .. 8: 15.75 (0.3535533905932738)
+    cylinders = 8 .. inf: 16.25 (0.3535533905932738)

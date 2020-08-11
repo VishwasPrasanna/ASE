@@ -1,0 +1,27 @@
+Lowering the value of alpha by just .1 reduces the number of anomalies
+found, by at least an order of magnitude. Increasing the value of alpha
+by .1 marginally increases the number of anomalies that occur; around
+2-3 times the frequency of the initial number of anomalies.
+
+The increased or decreased number of anomalies only marginally affects
+the sameness values, and it seemed in our implementation that the choice
+of pivot values had a much greater effect on the sameness than the number
+of additions to the trees' nodes. We never reached the point where any
+of our tree nodes split into multiple leaves, which we took to mean that
+our pivots split the data well enough that there were never enough
+anomalies to cause our trees to become insufficient. We found that with an
+alpha value of .5, we only updated the values of a tree leaf about 5 times
+in the tree that was updated over time, so we increased the alpha value
+to cause more anomalies to occur in our output. It was still insufficient
+to cause any noticable change in the output values. In fact, we did not manage
+to observe a single change to the column values of a leaf node that contained
+a probe. We did confirm that this was not a programmatic bug. Since we copied a
+constructed tree instead of making a new one and picking new pivots for the
+tree which adds data over time and stores less, we found our output to always
+be the same as the before value. We also found that data ordering effects did
+not seem to matter, and we got consistent column output whether we used the
+same or differently ordered data.
+
+We included an output report using the suggested technique of verification,
+but only using a single probe row because execution of the program took too
+long with more probes, and the output was not humanly interpretable.

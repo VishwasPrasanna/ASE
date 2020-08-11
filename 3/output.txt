@@ -1,0 +1,88 @@
+Rows:
+['rainy', '80', 'FALSE', 'yes']
+['sunny', '85', 'FALSE', 'no']
+['sunny', '90', 'TRUE', 'no']
+['overcast', '86', 'FALSE', 'yes']
+['rainy', '96', 'FALSE', 'yes']
+['rainy', '70', 'TRUE', 'no']
+['overcast', '65', 'TRUE', 'yes']
+['sunny', '95', 'FALSE', 'no']
+['sunny', '70', 'FALSE', 'yes']
+['rainy', '80', 'FALSE', 'yes']
+['sunny', '70', 'TRUE', 'yes']
+['overcast', '90', 'TRUE', 'yes']
+['overcast', '75', 'FALSE', 'yes']
+['rainy', '91', 'TRUE', 'no']
+Columns:
+
+
+Add: Sym
+Column Number: 1
+Column Name: outlook
+Count:
+	rainy : 5
+	sunny : 5
+	overcast : 4
+Mode: rainy
+Most: 5
+Number 3
+Entropy 1.5774062828523454
+
+
+Name: <humid
+Column Number: 3
+Add: Num
+Mean: 81.64285714285715
+Variance: 1375.2142857142858
+Standard Deviation: 10.285218242007035
+Lo: 65
+Hi: 96
+
+
+Add: Sym
+Column Number: 4
+Column Name: wind
+Count:
+	FALSE : 8
+	TRUE : 6
+Mode: FALSE
+Most: 8
+Number 2
+Entropy 0.9852281360342514
+
+
+Add: Sym
+Column Number: 5
+Column Name: !play
+Count:
+	yes : 9
+	no : 5
+Mode: yes
+Most: 9
+Number 2
+Entropy 0.940285958670631
+
+
+Class:
+______5
+Goal:
+______3
+______5
+Nums:
+______3
+Syms:
+______1
+______4
+______5
+Weight:
+______-1
+XS :
+______1
+______4
+XNUMS:
+
+
+ db |	rx|	num|	a|	b|	c|	d|	acc|	pre|	pd|	pf|	  f|	  g| class
+data|	rx|	14|	8|	0|	0|	6|	1.0|	1.0|	1.0|	0.0|	0.0|	0.75|	yes
+data|	rx|	14|	11|	0|	1|	2|	0.93|	0.67|	1.0|	0.08|	0.34|	0.17|	no
+data|	rx|	14|	8|	1|	0|	5|	0.93|	1.0|	0.83|	0.0|	0.0|	0.75|	maybe
